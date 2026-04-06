@@ -1,0 +1,30 @@
+# Ambiente virtual
+venv/
+env/
+
+# Arquivos de cache e compilados do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivo que contém as chaves de API reais
+.env
+
+# Pastas e arquivos de configuração gerados por Chainlit
+.chainlit/
+
+# Arquivos de log
+*.log
+
+# Configurações de editores de código (VS Code, etc)
+.vscode/
+.idea/
+
+# Arquivos ocultos do Sistema Operacional (Mac / Windows)
+.DS_Store
+Thumbs.db
+
+# Arquivos de dados e planilhas (Evita subir dados de clientes para o GitHub)
+*.xlsx
+*.csv
